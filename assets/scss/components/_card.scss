@@ -1,0 +1,12 @@
+.card {
+
+  &--basic {
+    @apply
+      shadow
+      rounded-lg
+      border
+      dark:border-gray-800
+      dark:bg-gray-900
+      p-8;
+  }
+}

@@ -1,0 +1,15 @@
+.header {
+  @apply
+    w-full
+    flex
+    justify-between
+    items-center
+    py-4
+    px-6
+    border-b
+    border-b-gray-800;
+
+  &--start{}
+  &--center{}
+  &--end{}
+}
